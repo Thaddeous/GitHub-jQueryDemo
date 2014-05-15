@@ -1,0 +1,9 @@
+{
+  "name": "github-jqueryproject",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.11.0",
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {}
+}

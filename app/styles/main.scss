@@ -1,0 +1,167 @@
+// bower:scss
+// endbower
+
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.outerbannercontainer {
+    height: 41px;
+    width: 100%;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.innerbannercontainer{
+    display: inline-block;
+    width: 980px;
+    height: 41px;
+}
+
+.leftbannercontainer {
+    width: 60%;
+}
+
+.homebox {
+    float: left;
+    height: 41px;
+    width: 40px;
+    background-color: #000000; 
+}
+
+.home {
+    height: 25px;
+    width: 25px;
+    margin: 8px;
+}
+
+.notificationsbox {
+    float: left;
+    height: 41px;
+    width: 40px;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    background-color: blue;
+}
+
+.notifications {
+    height: 25px;
+    width: 25px;
+    margin: 8px;
+}
+
+.searchbarbox {
+    float: left;
+    height: 41px;
+    width: 245px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.searchbar {
+    height: 25px;
+    width: 25px;
+    margin: 8px;
+}
+
+.leftbannermenu {
+    float: left;
+    height: 41px;
+    width: auto;
+    background-color: green;
+}
+
+.leftbannermenu ul {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 41px;
+}
+
+.leftbannermenu li {
+    display: inline;
+    list-style-type: none;
+}
+
+.leftbannermenu a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #222222;
+}
+
+
+
+.rightbannercontainer {
+    width: 35%;
+    float: right;
+}
+
+.rightbannermenu {
+    float: right;
+    height: 41px;
+    width: auto;
+    background-color: green;
+}
+
+.rightbannermenu {
+    float: right;
+    height: 41px;
+    width: auto;
+    background-color: green;
+}
+
+.rightbannermenu ul {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 41px;
+}
+
+.rightbannermenu li {
+    display: inline;
+    list-style-type: none;
+}
+
+.rightbannermenu a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #222222;
+}
+
+.profilepicbox {
+    float: right;
+    height: 41px;
+    width: 40px;
+    background-color: red;
+}
+
+.profilepic {
+    height: 25px;
+    width: 25px;
+    margin: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
