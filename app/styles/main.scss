@@ -364,12 +364,12 @@ body {
     padding: 0;
     margin: 0;
     display: inline-block;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .lower-search-bar-box {
     height: 60px;
     width: 260px;
-
     float: left;
     background-color: green;
 }
@@ -473,8 +473,141 @@ body {
     text-decoration: none;
     font-size: 14px;
     color: #222222;
-
 }
+
+// Right Main Menu Container Begins
+
+.main-body-container-a {
+    height: 32px;
+    width: 100%;
+    background-color: purple;
+    padding: 0;
+    margin-top: 21px;
+    display: inline-block;
+}
+
+.book-icon-box {
+    float: left;
+    height: 32px;
+    width: 28px;
+    background-color: red;
+    padding: 0;
+    margin: 0;
+    line-height: 32px;
+}
+
+.book-icon {
+    height: 32px;
+    width: 28px;
+}
+
+.repo-name-box {
+    float: left;
+    height: 32px;
+    width: auto;
+    background-color: blue;
+    padding: 0;
+    margin: 0;
+    line-height: 32px;
+}
+
+.repo-name {
+    height: 32px;
+    width: auto;
+}
+
+.repo-name a {
+    text-decoration: none;
+    color: #4183c4;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+}
+
+.branch-box {
+    float: right;
+    height: 32px;
+    line-height: 32px;
+    width: 40px;
+    background-color: yellow;
+}
+
+.branch-data {
+    float: right;
+    height: 32px;
+    width: 20px;
+}
+
+.branch-image {
+    height: 32px;
+    width: 20px;
+    float: right;
+}
+
+.star-box {
+    float: right;
+    height: 32px;
+    line-height: 32px;
+    width: 40px;
+    background-color: blue;
+}
+
+.star-data {
+    float: right;
+    height: 32px;
+    width: 20px;
+}
+
+.star-image {
+    height: 32px;
+    width: 20px;
+    float: right;
+}
+
+.code-type-box {
+    float: right;
+    height: 32px;
+    line-height: 32px;
+    width: auto;
+    background-color: green;
+}
+
+.code-type {
+    height: 32px;
+    width: auto;
+}
+
+.code-type span {
+    color: #666667;
+}
+
+.repo-description-box {
+    text-align: left;
+    margin-left: 27px;
+    height: 25px;
+    width: auto;
+    line-height: 25px;
+    font-size: 12px;
+    background-color: purple;
+}
+
+.latest-update-box {
+    height: 35px;
+    width: auto;
+    text-align: left;
+    margin-left: 27px;
+    font-size: 11px;
+    background-color: yellow;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+
+
+
+
+
+
 
 
 
