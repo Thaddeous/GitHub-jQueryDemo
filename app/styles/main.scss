@@ -274,20 +274,83 @@ body {
     margin: 0;
 }
 
+.top-container {
+    height: 35px;
+    width: 100%;
+    background-color: orange;
+    padding: 0;
+    margin: 0;
+}
 
+.contributions-box {
+    height: 35px;
+    width: 150px;
+    line-height: 35px;
+    background-color: blue;
+    float: left;
+}
 
+.contributions {
+    margin-top: 3px;
+}
 
+.contributions a {
+    text-decoration: none;
+    color: #333333;
+}
 
+.repositories-box {
+    height: 35px;
+    width: 150px;
+    line-height: 35px;
+    background-color: purple;
+    float: left;
+}
 
+.repositories {
+    margin-top: 3px;
+}
 
+.repositories a {
+    text-decoration: none;
+    color: #333333;
+}
 
+.public-activity-box {
+    height: 35px;
+    width: 150px;
+    line-height: 35px;
+    background-color: green;
+    float: left;
+}
 
+.public-activity {
+    margin-top: 3px;
+}
 
+.public-activity a {
+    text-decoration: none;
+    color: #333333;
+}
 
+.edit-profile-box {
+    height: 35px;
+    width: 150px;
+    background-color: red;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
 
-
-
-
+.edit-profile-button {
+    height: 25px;
+    width: 110px;
+    margin-top: 5px;
+    background-color: blue;
+    float: right;
+    text-align: center;
+    border-radius: 5px; 
+}
 
 
 
