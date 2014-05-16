@@ -10,24 +10,29 @@ body {
     text-align: center;
 }
 
-.outerbannercontainer {
+// Top Banner Container Begins
+
+.outer-top-banner-container {
     height: 41px;
     width: 100%;
     background-color: #f7f7f7;
     border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
 }
 
-.innerbannercontainer{
+.inner-banner-container{
     display: inline-block;
     width: 980px;
     height: 41px;
 }
 
-.leftbannercontainer {
+// Left Banner Portion Begins
+
+.left-banner-container {
     width: 60%;
 }
 
-.homebox {
+.home-box {
     float: left;
     height: 41px;
     width: 40px;
@@ -40,7 +45,7 @@ body {
     margin: 8px;
 }
 
-.notificationsbox {
+.notifications-box {
     float: left;
     height: 41px;
     width: 40px;
@@ -55,7 +60,7 @@ body {
     margin: 8px;
 }
 
-.searchbarbox {
+.search-bar-box {
     float: left;
     height: 41px;
     width: 245px;
@@ -63,92 +68,216 @@ body {
     margin: 0 auto;
 }
 
-.searchbar {
+.search-bar {
     height: 25px;
     width: 25px;
     margin: 8px;
 }
 
-.leftbannermenu {
+.left-banner-menu {
     float: left;
     height: 41px;
     width: auto;
     background-color: green;
 }
 
-.leftbannermenu ul {
+.left-banner-menu ul {
     margin: 0;
     padding-left: 10px;
     padding-right: 10px;
     line-height: 41px;
 }
 
-.leftbannermenu li {
+.left-banner-menu li {
     display: inline;
     list-style-type: none;
 }
 
-.leftbannermenu a {
+.left-banner-menu a {
     margin-left: 10px;
     text-decoration: none;
     color: #222222;
 }
 
+// Left Banner Ends & Right Banner Portion Begins
 
-
-.rightbannercontainer {
+.right-banner-container {
     width: 35%;
     float: right;
 }
 
-.rightbannermenu {
+.right-banner-menu {
     float: right;
     height: 41px;
     width: auto;
     background-color: green;
 }
 
-.rightbannermenu {
+.right-banner-menu {
     float: right;
     height: 41px;
     width: auto;
     background-color: green;
 }
 
-.rightbannermenu ul {
+.right-banner-menu ul {
     margin: 0;
     padding-left: 10px;
     padding-right: 10px;
     line-height: 41px;
 }
 
-.rightbannermenu li {
+.right-banner-menu li {
     display: inline;
     list-style-type: none;
 }
 
-.rightbannermenu a {
+.right-banner-menu a {
     margin-left: 10px;
     text-decoration: none;
     color: #222222;
 }
 
-.profilepicbox {
+.banner-profile-picture-box {
     float: right;
     height: 41px;
     width: 40px;
     background-color: red;
 }
 
-.profilepic {
+.banner-profile-picture {
     height: 25px;
     width: 25px;
     margin: 8px;
 }
 
+// Top Banner Ends & Main Body Begins
+
+.main-body-container {
+    width: 980px;
+    height: 700px;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.left-container {
+    float: left;
+    height: 400px;
+    width: 23%;
+    background-color: #777777;
+    padding: 0;
+    margin: 0;
+}
+
+.main-profile-picture-box {
+    width: 100%;
+    height: 230px;
+    background-color: red;
+}
+
+.main-profile-picture {
+    height: 100%;
+    width: 100%;
+}
+
+.profile-name-box {
+    height: 41px;
+    width: 100%;
+    background-color: green;
+}
+
+.profile-name {
+    float: left;
+    font-size: 28px;
+}
+
+.profile-username-box {
+    height: 36px;
+    width: 100%;
+    background-color: blue;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.profile-username {
+    float: left;
+    font-size: 22px;
+}
+
+.profile-info-list-box {
+    height: 147px;
+    width: 100%;
+    background-color: yellow;
+}
+
+.profile-info-list ul {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-info-list img {
+    float: left;
+    height: 16px;
+    width: 16px;
+    margin-left: 1px;
+    margin-right: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.profile-info-list li {
+    text-align: left;
+}
+
+.profile-info-list a {
+    color: #4183c4;
+    text-decoration: none;
+}
+
+
+.social-box {
+    height: 75px;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: orange;
+    margin: 0 auto;
+}
+
+.followers-box, .starred-box, .following-box {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+.social-box p {
+    font-size: 30px;
+    padding: 0;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    color: #333333;
+}
+
+.social-box a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #333333;
+}
 
 
 
+
+
+
+
+
+
+.right-container {
+    float: right;
+    height: 400px;
+    width: 75%;
+    background-color: #777777;
+    padding: 0;
+    margin: 0;
+}
 
 
 
