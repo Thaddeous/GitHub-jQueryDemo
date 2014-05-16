@@ -60,7 +60,7 @@ body {
     margin: 8px;
 }
 
-.search-bar-box {
+.top-search-bar-box {
     float: left;
     height: 41px;
     width: 245px;
@@ -68,7 +68,7 @@ body {
     margin: 0 auto;
 }
 
-.search-bar {
+.top-search-bar {
     height: 25px;
     width: 25px;
     margin: 8px;
@@ -274,7 +274,9 @@ body {
     margin: 0;
 }
 
-.top-container {
+// 1st Main Body Menu Begins
+
+.top-menu-container {
     height: 35px;
     width: 100%;
     background-color: orange;
@@ -352,8 +354,127 @@ body {
     border-radius: 5px; 
 }
 
+// 1st Main Body Menu Ends
+// 2nd Main Body Menu Begins 
 
+.main-menu-container {
+    height: 60px;
+    width: 100%;
+    background-color: yellow;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
 
+.lower-search-bar-box {
+    height: 60px;
+    width: 260px;
+
+    float: left;
+    background-color: green;
+}
+
+.lower-search-bar {
+    height: 34px;
+    width: 260px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    line-height: 33px;
+    text-align: left;
+    margin-top: 14px;
+}
+
+.lower-search-bar p {
+    padding: 0;
+    margin: 0;
+}
+
+.lower-search-bar span {
+    margin-left: 10px;
+}
+
+.search-bar-button-box {
+    height: 60px;
+    width: 70px;
+    float: left;
+    background-color: blue;
+    margin-left: 5px;
+}
+
+.search-bar-button {
+    height: 34px;
+    width: 70px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.search-bar-button p {
+    padding: 0;
+    margin: 0;
+}
+
+// Left Main Menu Container Ends
+// Right Main Menu Container Begins
+
+.right-main-menu-container {
+    float: right;
+    height: 60px;
+}
+
+.new-button-box {
+    height: 60px;
+    width: 70px;
+    float: left;
+    background-color: blue;
+    float: right;
+}
+
+.new-button {
+    height: 34px;
+    width: 70px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.new-button p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.right-main-menu-box {
+    float: right;
+    height: 34px;
+    width: 300px;
+    background-color: purple;
+    margin-top: 14px;
+}
+
+.right-main-menu-box ul {
+    margin: 0;
+    padding: 0;
+    line-height: 34px;
+    text-align: right;
+}
+
+.right-main-menu-box li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 5px;
+}
+
+.right-main-menu-box a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #222222;
+
+}
 
 
 
