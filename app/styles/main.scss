@@ -36,13 +36,12 @@ body {
     float: left;
     height: 41px;
     width: 40px;
-    background-color: #000000; 
 }
 
 .home {
     height: 25px;
     width: 25px;
-    margin: 8px;
+    margin-top: 5px;
 }
 
 .notifications-box {
@@ -52,13 +51,22 @@ body {
     border-left: 1px solid #e5e5e5;
     border-right: 1px solid #e5e5e5;
     background-color: blue;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .notifications {
-    height: 25px;
-    width: 25px;
-    margin: 8px;
+    height: 10px;
+    width: 10px;
+    background-color: #333333;
+    margin: 14px;
+    border-radius: 100%;
 }
+
+.notifications:hover {
+    background-color: blue;
+}
+
 
 .top-search-bar-box {
     float: left;
@@ -110,21 +118,13 @@ body {
     float: right;
     height: 41px;
     width: auto;
-    background-color: green;
-}
-
-.right-banner-menu {
-    float: right;
-    height: 41px;
-    width: auto;
-    background-color: green;
 }
 
 .right-banner-menu ul {
-    margin: 0;
     padding-left: 10px;
     padding-right: 10px;
     line-height: 41px;
+    margin: 0;
 }
 
 .right-banner-menu li {
@@ -219,10 +219,12 @@ body {
 
 .profile-info-list img {
     float: left;
-    height: 16px;
-    width: 16px;
+    height: 13px;
+    width: 13px;
     margin-left: 1px;
     margin-right: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -336,22 +338,21 @@ body {
 }
 
 .edit-profile-box {
-    height: 35px;
-    width: 150px;
-    background-color: red;
+    height: 26px;
+    width: 110px;
     float: right;
-    padding: 0;
-    margin: 0;
+    background-color: red;
+    border-radius: 5px;
+    margin-top: 4px;
+    border: 1px solid #e5e5e5;
 }
 
 .edit-profile-button {
-    height: 25px;
-    width: 110px;
-    margin-top: 5px;
-    background-color: blue;
-    float: right;
-    text-align: center;
-    border-radius: 5px; 
+    margin-top: 4px;
+}
+
+.edit-profile-button img {
+    margin-right: 3px; 
 }
 
 // 1st Main Body Menu Ends
@@ -480,7 +481,6 @@ body {
 .main-body-container-a {
     height: 32px;
     width: 100%;
-    background-color: purple;
     padding: 0;
     margin-top: 21px;
     display: inline-block;
@@ -490,7 +490,6 @@ body {
     float: left;
     height: 32px;
     width: 28px;
-    background-color: red;
     padding: 0;
     margin: 0;
     line-height: 32px;
@@ -528,7 +527,6 @@ body {
     height: 32px;
     line-height: 32px;
     width: 40px;
-    background-color: yellow;
 }
 
 .branch-data {
@@ -548,7 +546,6 @@ body {
     height: 32px;
     line-height: 32px;
     width: 40px;
-    background-color: blue;
 }
 
 .star-data {

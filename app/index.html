@@ -26,12 +26,12 @@
                 <div class="left-banner-container">
                     <div class="home-box">
                         <div class="home">
-                            <a href="#"><img src="pic"></a>
+                            <a href="#"><img src="/images/octocat-icon-big.png"></a>
                         </div>
                     </div>
                     <div class="notifications-box">
                         <div class="notifications">
-                            <a href="#"><img src="pic"></a>
+                            <div class="notifications-circle"></div>
                         </div>
                     </div>
                     <div class="top-search-bar-box">
@@ -53,9 +53,9 @@
                     <div class="right-banner-menu">
                         <ul>
                             <li><a href="#">Username</a></li>
-                            <li><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
+                            <li><a href="#"><img src="images/plus-arrow-icon.png"></a></li>
+                            <li><a href="#"><img src="/images/logout-icon.png"></a></li>
+                            <li><a href="#"><img src="/images/tools-icon.png"></a></li>
                         </ul>   
                     </div>
                     <div class="banner-profile-picture-box">
@@ -84,11 +84,11 @@
             <div class="profile-info-list-box">
                 <div class="profile-info-list">
                     <ul>
-                        <li><img src="pic"><div class="work">Work</div></li>
-                        <li><img src="pic"><div class="city-state">City, State</div></li>
-                        <li><img src="pic"><a href="#">Email Link</a></li>
-                        <li><img src="pic"><a href="#">Website Link</a></li>
-                        <li><img src="pic"><div class="join-date">Join Date</div></li>
+                        <li><img src="/images/work.png"><div class="work">Work</div></li>
+                        <li><img src="/images/location-icon.png"><div class="city-state">City, State</div></li>
+                        <li><img src="/images/email.png"><a href="#">Email Link</a></li>
+                        <li><img src="/images/link.png"><a href="#">Website Link</a></li>
+                        <li><img src="/images/clock-icon.png"><div class="join-date">Join Date</div></li>
                     </ul>
                 </div>
             </div>
@@ -114,25 +114,25 @@
             <div class="top-menu-container">
                 <div class="contributions-box">
                     <div class="contributions">
-                        <img src="pic">
+                        <img src="/images/plus-in-box-icon.png">
                         <a href="#">Contributions</a>
                     </div>
                 </div>
                 <div class="repositories-box">
                     <div class="repositories">
-                        <img src="pic">
+                        <img src="/images/book-icon.png">
                         <a href="#">Repositories</a>
                     </div>
                 </div>
                 <div class="public-activity-box">
                     <div class="public-activity">
-                        <img src="pic">
+                        <img src="/images/broadcast-icon.png">
                         <a href="#">Public Activity</a>
                     </div>
                 </div>
                 <div class="edit-profile-box">
                     <div class="edit-profile-button">
-                        <img src="pic">Edit Profile
+                        <img src="/images/pencil.png" <p>Edit Profile</p> > 
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
                 <!-- Main Body Repo Container A Begin -->
                 <div class="main-body-container-a">
                     <div class="book-icon-box">
-                        <div class="book-icon"><img src="#"></div>
+                        <div class="book-icon"><img src="/images/book-icon-big.png"></div>
                     </div>
                     <div class="repo-name-box">
                         <div class="repo-name">
@@ -179,11 +179,11 @@
                     </div>
                     <div class="branch-box">
                         <div class="branch-data">6</div>
-                        <div class="branch-image"><img src="#"></div>
+                        <div class="branch-image"><img src="/images/fork-icon.png"></div>
                     </div>
                     <div class="star-box">
                         <div class="star-data">5</div>
-                        <div class="star-image"><img src="#"></div>
+                        <div class="star-image"><img src="/images/star-icon.png"></div>
                     </div>
                     <div class="code-type-box">
                         <div class="code-type">
@@ -197,56 +197,65 @@
                 <div class="latest-update-box">
                     <div class="latest-update">Latest Update</div>
                 </div>
-
-                <!-- Main Body Repo Container B Begin -->
-                <!-- <div class="main-body-container-b">
-                    <div class="book-icon-box">
-                        <div class="book-icon"><img src="#"></div>
-                    </div>
-                    <div class="repo-name-box">
-                        <div class="repo-name">
-                            <a href="#">Repo Name</a>
-                        </div>
-                    </div>
-                    <div class="branch-box">
-                        <div class="branch-data">6</div>
-                        <div class="branch-image"><img src="#"></div>
-                    </div>
-                    <div class="star-box">
-                        <div class="star-data">5</div>
-                        <div class="star-image"><img src="#"></div>
-                    </div>
-                    <div class="code-type-box">
-                        <div class="code-type">
-                            <span>Code Type</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="repo-description-box">
-                    <div class="repo-description">Repo Description</div>
-                </div>
-                <div class="latest-update-box">
-                    <div class="latest-update">Latest Update</div>
-                </div> -->
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
     </div>
+
+
+        <script type="text/template" class="showRepos">
+                <div class="main-body-container-a">
+                    <div class="book-icon-box">
+                        <div class="book-icon"><img src="/images/book-icon-big.png"></div>
+                    </div>
+                    <div class="repo-name-box">
+                        <div class="repo-name">
+                            <a href="#"> <%=name%> </a>
+                        </div>
+                    </div>
+                    <div class="branch-box">
+                        <div class="branch-data">6</div>
+                        <div class="branch-image"><img src="/images/fork-icon.png"></div>
+                    </div>
+                    <div class="star-box">
+                        <div class="star-data">5</div>
+                        <div class="star-image"><img src="/images/star-icon.png"></div>
+                    </div>
+                    <div class="code-type-box">
+                        <div class="code-type">
+                            <span>Code Type</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="repo-description-box">
+                    <div class="repo-description">Repo Description</div>
+                </div>
+                <div class="latest-update-box">
+                    <div class="latest-update">Latest Update</div>
+                </div>
+        </script>
+        
+        <script type="text/javascript" class="showUserInfo">
+            <div class="right-banner-container"> 
+                <div class="right-banner-menu">
+                    <ul>
+                        <li><a href="#"> <%=login%> </a></li>
+                        <li><a href="#"><img src="images/plus-icon.png"></a></li>
+                        <li><a href="#"><img src="/images/logout-icon.png"></a></li>
+                        <li><a href="#"><img src="/images/tools-icon.png"></a></li>
+                    </ul>   
+                </div>
+            </div>
+        </script>
+
+
 
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
+        
         <script src="../bower_components/jquery/dist/jquery.js"></script>
         <script src="../bower_components/underscore/underscore.js"></script>
+
         <!-- endbower -->
         <!-- endbuild -->
 
