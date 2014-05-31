@@ -17,9 +17,8 @@
     </head>
     <body>
         <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
         <!-- Banner Body Begins -->
         <div class="outer-top-banner-container">
             <div class="inner-banner-container">
@@ -36,7 +35,9 @@
                     </div>
                     <div class="top-search-bar-box">
                         <div class="top-search-bar">
-                            <a href="#"><img src="pic"></a>
+                            <form>
+                                <input class="mywidth" type="text" name="search">
+                            </form>
                         </div>
                     </div>
                     <div class="left-banner-menu">
@@ -45,82 +46,20 @@
                             <li><a href="#">Gist</a></li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Help</a></li>
-                        </ul>   
+                        </ul>
                     </div>
                 </div>
                 <!-- Left Banner Ends & Right Banner Begins-->
-                <div class="right-banner-container"> 
-                    <div class="right-banner-menu">
-                        <ul>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"><img src="images/plus-arrow-icon.png"></a></li>
-                            <li><a href="#"><img src="/images/logout-icon.png"></a></li>
-                            <li><a href="#"><img src="/images/tools-icon.png"></a></li>
-                        </ul>   
-                    </div>
-                    <div class="banner-profile-picture-box">
-                        <div class="banner-profile-picture">
-                            <a href="#"><img src="pic"></a>
-                        </div>
-                    </div> 
+                <div class="right-banner-container-body">
+                    
                 </div>
             </div>
         </div>
+    </div>
     <!-- Top Banner Ends & Main Body Begins-->
     <div class="main-body-container">
-    <!-- Left Container Begins-->
-        <div class="left-container"> 
-            <div class="main-profile-picture-box">
-                <div class="main-profile-picture">
-                    <a href="#"><img src="pic"></a>
-                </div>
-            </div>
-            <div class="profile-name-box">
-                <div class="profile-name">Legit Name</div>
-            </div>
-            <div class="profile-username-box">
-                <div class="profile-username">Username</div>
-            </div>
-            <div class="profile-info-list-box">
-                <div class="profile-info-list">
-                    <ul>
-                        <li>
-                            <img src="/images/work.png">
-                            <div class="work">Work</div>
-                        </li>
-                        <li>
-                            <img src="/images/location-icon.png">
-                            <div class="city-state">City, State</div>
-                        </li>
-                        <li>
-                            <img src="/images/email.png">
-                            <a href="#">Email Link</a>
-                        </li>
-                        <li>
-                            <img src="/images/link.png">
-                            <a href="#">Website Link</a>
-                        </li>
-                        <li>
-                            <img src="/images/clock-icon.png">
-                            <div class="join-date">Join Date</div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="social-box">
-                <div class="followers-box">
-                    <a href=""><div class="followers"><p>Num</p>Followers</div></a>
-                </div>
-
-                <div class="starred-box">
-                    <a href=""><div class="starred"><p>Num</p>Starred</div></a>
-                </div>
-
-                <div class="following-box">
-                    <a href=""><div class="following"><p>Num</p>Following</div></a>
-                </div>
-            </div>
-        </div>
+        <!-- Left Container Begins-->
+        
         <!-- Left Container Ends and 1st Level Main Menu Begins-->
         <div class="right-container">
             <div class="top-menu-container">
@@ -144,7 +83,7 @@
                 </div>
                 <div class="edit-profile-box">
                     <div class="edit-profile-button">
-                        <img src="/images/pencil.png" <p>Edit Profile</p> > 
+                        <img src="/images/pencil.png">Edit Profile
                     </div>
                 </div>
             </div>
@@ -153,7 +92,7 @@
                 <div class="left-main-menu-container">
                     <div class="lower-search-bar-box">
                         <div class="lower-search-bar">
-                         <p><span>Find a repository...</span></p>
+                            <p><span>Find a repository...</span></p>
                         </div>
                     </div>
                     <div class="search-bar-button-box">
@@ -176,166 +115,122 @@
                             <li><a href="#">Sources</a></li>
                             <li><a href="#">Forks</a></li>
                             <li><a href="#">Mirrors</a></li>
-                        </ul>   
-                    </div>   
+                        </ul>
+                    </div>
                 </div>
                 <!-- Main Body Repo Container A Begin -->
-                <div class="main-body-container-a">
-                    <div class="book-icon-box">
-                        <div class="book-icon"><img src="/images/book-icon-big.png"></div>
-                    </div>
-                    <div class="repo-name-box">
-                        <div class="repo-name">
-                            <a href="#">Repo Name</a>
-                        </div>
-                    </div>
-                    <div class="branch-box">
-                        <a href="">
-                            <div class="branch-data">6</div>
-                            <div class="branch-image"><img src="/images/fork-icon.png"></div>
-                        </a>
-                    </div>
-                    <div class="star-box">
-                        <a href="">
-                            <div class="star-data">5</div>
-                            <div class="star-image"><img src="/images/star-icon.png"></div>
-                        </a>
-                    </div>
-                    <div class="code-type-box">
-                        <div class="code-type">
-                            <span>Code Type</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="repo-description-box">
-                    <div class="repo-description">Repo Description</div>
-                </div>
-                <div class="latest-update-box">
-                    <div class="latest-update">Latest Update</div>
+                <div class="repo-container">
                 </div>
             </div>
         </div>
     </div>
-
-
-        <script type="text/template" class="showRepos">
-                <div class="main-body-container-a">
-                    <div class="book-icon-box">
-                        <div class="book-icon"><img src="/images/book-icon-big.png"></div>
-                    </div>
-
-                    <div class="repo-name-box">
-                        <div class="repo-name"><a href=" <%=html_url%> "> <%=name%> </a></div>
-                    </div>
-
-                    <div class="branch-box">
-                        <a href=" <%=branches_url%> ">
-                            <div class="branch-data"> <%=forks_count%> </div>
-                            <div class="branch-image"><img src="/images/fork-icon.png"></div>
-                        </a>
-                    </div>
-                    
-                    <div class="star-box">
-                        <a href=" <%=stargazers_url%> ">
-                            <div class="star-data"> <%=stargazers_count%> </div>
-                            <div class="star-image"><img src="/images/star-icon.png"></div>
-                        </a>
-                    </div>
-                    
-                    <div class="code-type-box">
-                        <div class="code-type"><span> <%=language%> </span></div>
-                    </div>
-                </div>
-
-                <div class="repo-description-box">
-                    <div class="repo-description"> <%=description%> </div>
-                </div>
-                
-                <div class="latest-update-box">
-                    <div class="latest-update"> <%=updated_at%> </div>
-                </div>
-        </script>
-        
-
-        <script type="text/javascript" class="getUserInfo">
-            <div class="right-banner-container"> 
-                <div class="right-banner-menu">
-                    <ul>
-                        <li><a href="#"> <%=login%> </a></li>
-                    </ul>   
-                </div>
+    <!-- Scripts start here -->
+    <script type="text/template" class="showRepos">
+    <div class="main-body-container-a">
+        <div class="book-icon-box">
+            <div class="book-icon"><img src="/images/book-icon-big.png"></div>
+        </div>
+        <div class="repo-name-box">
+            <div class="repo-name"><a href=" <%=html_url%> "> <%=name%> </a></div>
+        </div>
+        <div class="branch-box">
+            <a href=" <%=branches_url%> ">
+            <div class="branch-data"> <%=forks_count%> </div>
+            <div class="branch-image"><img src="/images/fork-icon.png"></div>
+            </a>
+        </div>
+        <div class="star-box">
+            <a href=" <%=stargazers_url%> ">
+            <div class="star-data"> <%=stargazers_count%> </div>
+            <div class="star-image"><img src="/images/star-icon.png"></div>
+            </a>
+        </div>
+        <div class="code-type-box">
+            <div class="code-type"><span> <%=language%> </span></div>
+        </div>
+    </div>
+    <div class="repo-description-box">
+        <div class="repo-description"> <%=description%> </div>
+    </div>
+    <div class="latest-update-box">
+        <div class="latest-update"> <%=updated_at%> </div>
+    </div>
+    </script>
+    
+    
+    <script type="text/javascript" class="getUserInfo">
+    
+    <div class="right-banner-container">
+        <div class="right-banner-menu">
+            <div class="banner-profile-picture-box">
+                <div class="banner-profile-picture">
+                    <a href="#"><img src="<%=avatar_url%>"></a>
+                </div>            
             </div>
-        </script>
+            <ul>
+                <li><a href="#"><%=login%></a></li>
+                <li><a href="#"><img src="/images/plus-arrow-icon.png"></a></li>
+                <li><a href="#"><img src="/images/tools-icon.png"></a></li>
+                <li><a href="#"><img src="/images/logout-icon.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    </script>
 
-        
-        <script type="text/javascript" class="getUserInfo">
-        <div class="left-container"> 
-            
-            <div class="main-profile-picture-box">
-                <div class="main-profile-picture"><a href="#"><img src=""></a></div></div>
-            
-            <div class="profile-name-box">
-                <div class="profile-name"><%=name%></div>
+    <script type="text/javascript" class="getUserInfo">
+    <div class="left-container">
+        <div class="main-profile-picture-box">
+            <div class="main-profile-picture">
+                <a href="#"><img src="<%=avatar_url%>"></a>
             </div>
-            
-            <div class="profile-username-box">
-                <div class="profile-username"><%=login%></div>
+        </div>
+        <div class="profile-name-box">
+            <div class="profile-name"><%=name%></div>
+        </div>
+        <div class="profile-username-box">
+            <div class="profile-username"><%=login%></div>
+        </div>
+        <div class="profile-info-list-box">
+            <div class="profile-info-list">
+                <ul>
+                    <li><img src="/images/work.png"><div class="work"> <%=company%> </div></li>
+                    <li><img src="/images/location-icon.png"><div class="city-state"> <%=location%> </div></li>
+                    <li><img src="/images/email.png"><a href=" <%=email%> "> <%=email%> </a></li>
+                    <li><img src="/images/link.png"><a href=" <%=blog%> "> <%=blog%> </a></li>
+                    <li><img src="/images/clock-icon.png"><div class="join-date"> <%=created_at%> </div></li>
+                </ul>
             </div>
-            
-            <div class="profile-info-list-box">
-                <div class="profile-info-list">
-                    <ul>
-                        <li><img src="/images/work.png"><div class="work"><%=company%></div></li>
-                        <li><img src="/images/location-icon.png"><div class="city-state"><%=location%></div></li>
-                        <li><img src="/images/email.png"><a href=" <%=email%> "><%=email%></a></li>
-                        <li><img src="/images/link.png"><a href=" <%=blog%> "><%=blog%></a></li>
-                        <li><img src="/images/clock-icon.png"><div class="join-date"><%=created_at%></div></li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="social-box">
-                <div class="followers-box">
-                    <a href=""><div class="followers"><p> <%=followers%> </p>Followers</div></a></div>
-
+        </div>
+        <div class="social-box">
+            <div class="followers-box">
+                <a href=""><div class="followers"><p> <%=followers%> </p>Followers</div></a></div>
                 <div class="starred-box">
                     <a href=""><div class="starred"><p></p>Starred</div></a>
                 </div>
-
                 <div class="following-box">
                     <a href=""><div class="following"><p> <%=following%> </p>Following</div></a>
                 </div>
-            
             </div>
         </div>
         </script>
-
-
-
-
-
-
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         
         <script src="../bower_components/jquery/dist/jquery.js"></script>
         <script src="../bower_components/underscore/underscore.js"></script>
-
         <!-- endbower -->
         <!-- endbuild -->
-
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
-
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
-</body>
+    </body>
 </html>
